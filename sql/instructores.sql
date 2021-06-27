@@ -11,6 +11,7 @@ CREATE TABLE instructores
 , direccion VARCHAR(100)
 , cod_postal INT
 , cant_hijos INT
+, modalidad VARCHAR(100)
 , id INT IDENTITY
 PRIMARY KEY (fecha_nacimiento, apellido)
 
